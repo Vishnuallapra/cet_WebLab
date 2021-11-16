@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Home
+    </title>
+    <link rel="stylesheet" href="stytle.css">
+</head>
+
+<body>
+
+    <h2>Registration</h2>
+    <form action="proff.html">
+        <table>
+        
+            <tr>
+                <th>Name</th>
+                <td colspan="2"><input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name"></td>
+            </tr>
+            <tr>
+                <th>Address</th>
+                <td><textarea placeholder="Address" name="Address" id="" cols="20" rows="3"></textarea></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td><input type="radio" name="gender" value="male">Male <input type="radio" name="gender" value="female">Female</td>
+    
+            </tr>
+            <tr>
+                <th>Age</th>
+                <td><input type="date" name="age" id="age"></td>
+    
+            </tr>
+            <tr>
+                <th>Qualification</th>
+                <td><select name="qualification" id="stud">
+                    <option value="pg">PG</option>
+                    <option value="ug" selected>UG</option>
+                    <option value="+2">PlusTwo</option>
+                    <option value="10">SSLC</option>
+                    </select>
+                </td>
+    
+            </tr>
+            <tr>
+                <th>Contact Info:</th>
+                <td colspan="2"><input type="number" name="phone" id="number" placeholder="Phone no:">
+                <input type="email" name="email" id="mail" placeholder="E-mail">
+    
+            </tr>
+            <tr>
+                <th>Resume</th>
+                <td colspan="2">&nbsp;<input type="file" name="resume" id="resume"></td>
+    
+            </tr>
+        </table>
+        <br><br>
+        <div class="footer">
+            <input type="submit" value="submit" id="button">
+            &nbsp;&nbsp;
+            <input type="reset" value="reset" id="button">
+        </div>
+    </form>
+    
+</body>
+</html>
